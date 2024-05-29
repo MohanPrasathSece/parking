@@ -44,6 +44,3 @@ commands from that file. <br/>
 
 <br/>
 
-## Maintainer
-
-- Vaibhav Magon
