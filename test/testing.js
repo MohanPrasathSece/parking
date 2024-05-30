@@ -47,7 +47,7 @@ describe("Testing Functions", function(){
             obj[parseInt(i)] = null;
             parkingArr.push(obj);
         }
-        assert.equal(totalParkings,6);
+        assert.equal(total.Parkings,6);
         assert.equal(parkingArr.length,6);
         done();
   });
