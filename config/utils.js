@@ -64,6 +64,7 @@ module.exports = {
     slot_numbers_for_cars_with_colour : function(totalParkings, parkingArr, input){
     	if(totalParkings > 0){
 	    	var displayArr = new Array();
+		
 	        for(var i=0; i< parkingArr.length; i++){
 	        	if(parkingArr[i][i] && parkingArr[i][i].split(":")[1] == input.split(" ")[1]){
 	        		displayArr.push(i+1);
